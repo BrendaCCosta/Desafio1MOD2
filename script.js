@@ -5,7 +5,7 @@ let dia = "claro"
 
 if (dia == "claro") {
   console.log("Está claro!")
-} else if (dia == "escuro"){
+} else {
   console.log("Está de noite!")
 }
 
@@ -62,11 +62,56 @@ let verificar = false
 function verificador () {
   if (verificar == true) {
     console.log("é verdadeiro")
-  }else if (verificar == false) { 
+  } else {
     console.log("é falso")
   }
 }
 
 verificador ()
 
-// 
+// 09 - Crie um array que receba 5 itens e exiba no console.
+
+let comidas = ["pizza", "lasanha", "hamburguer", "Strogonoff", "Churrasco"]
+console.log(comidas)
+
+// 10 - Utilize um método para adicionar um nome ao inicio do array.
+
+let nomes = ["Arthur", "Beatriz", "William"]
+nomes.unshift("Brenda")
+console.log(nomes)
+
+// 11 - Utilize um método para remover o último nome do array.
+
+let esportes = ["futebol", "basquete", "golf"]
+esportes.push("natação")
+console.log(esportes)
+
+// 12 - Utilize um método para adicionar dois nomes ao fim do array.a
+
+let names = ["João", "Carla", "Matheus" ]
+names.push("Maria","Victor")
+console.log(names)
+
+// 13 - Utilize um método para remover o primeiro nome do array.
+
+let jogos = ["The Sims", "Stardew Valley", "LOL"]
+jogos.shift()
+console.log(jogos)
+
+
+// 14 - Utilize um método para organizar em ordem crescente o seguinte array:
+
+ let numbers = [7,5,6,3,8,9,2,1,4]
+ numbers.sort()
+ console.log(numbers)
+
+// 15 - Crie um objeto que receba ao menos três propriedades sobre você.
+
+
+// 16 - Adicione uma nova propriedade sem alterar seu objeto inicial.
+// 17 - Remova uma propriedade desse objeto.
+// 18 - Mostre no console todas as propriedades desse objeto.
+// 19 - Crie um array  chamado "cadastro" contendo ao menos 5 objetos.
+// Cada objeto deve receber as seguintes propriedades: nome,  idade,  telefone, amigos.
+// Na propriedade amigos, adicione ao menos 4 amigos.
+// 20 - Mostre no console o nome de um amigo de cada lista.
