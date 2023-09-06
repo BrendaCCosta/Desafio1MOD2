@@ -107,11 +107,63 @@ console.log(jogos)
 
 // 15 - Crie um objeto que receba ao menos três propriedades sobre você.
 
+let sobreMim = {
+  nome:"Brenda",
+  idade: 20,
+  Música:"Seven"
+}
 
 // 16 - Adicione uma nova propriedade sem alterar seu objeto inicial.
+
+
 // 17 - Remova uma propriedade desse objeto.
+
+
 // 18 - Mostre no console todas as propriedades desse objeto.
+
+
 // 19 - Crie um array  chamado "cadastro" contendo ao menos 5 objetos.
 // Cada objeto deve receber as seguintes propriedades: nome,  idade,  telefone, amigos.
 // Na propriedade amigos, adicione ao menos 4 amigos.
+
+let cadastro = [
+  {
+    nome:"José",
+    idade: 38,
+    telefone: 2186494635,
+    amigos: ["Kevin","Bianca","Rose","Jeferson"]
+  },
+  {
+    nome:"Matheus",
+    idade: 18,
+    telefone: 456312467,
+    amigos: ["Luan","Vitoria","Milton","Jessica"]
+  },
+  {
+    nome:"Maria",
+    idade: 31,
+    telefone: 124546445,
+    amigos:["Matheus","Fernanda","Fred","Vilma"]
+  }, 
+  {
+    nome:"Katarina",
+    idade: 15,
+    telefone: 7457693536,
+    amigos:["Daniel","Daniela","Carla","Gabriel"]
+  }, 
+  {
+    nome:"Victor",
+    idade:24,
+    telefone: 88356564,
+    amigos:["Henrique","Brenda","Bia","Pedro"]
+  }
+]
+
 // 20 - Mostre no console o nome de um amigo de cada lista.
+
+console.log(cadastro[0].amigos[0]);
+console.log(cadastro[1].amigos[1]);
+console.log(cadastro[2].amigos[2]);
+console.log(cadastro[3].amigos[2]);
+console.log(cadastro[4].amigos[3]);
+
