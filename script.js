@@ -114,13 +114,16 @@ let sobreMim = {
 }
 
 // 16 - Adicione uma nova propriedade sem alterar seu objeto inicial.
-
+ 
+sobreMim.estado = "Rio de Janeiro"
 
 // 17 - Remova uma propriedade desse objeto.
 
+delete sobreMim.Música
 
 // 18 - Mostre no console todas as propriedades desse objeto.
 
+console.log(sobreMim)
 
 // 19 - Crie um array  chamado "cadastro" contendo ao menos 5 objetos.
 // Cada objeto deve receber as seguintes propriedades: nome,  idade,  telefone, amigos.
